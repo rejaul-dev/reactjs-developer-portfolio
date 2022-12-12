@@ -16,10 +16,10 @@ const Footer = () => {
       </div>
       <div className="grid grid-flow-col gap-4">
         <a href="https://github.com/rejaul-karim10" target="_blank" rel="noreferrer">
-          <FaGithub className="text-4xl" />
+          <FaGithub className="text-xl" />
         </a>
         <a href="https://www.linkedin.com/in/rejaul-karim-rabbi/" target="_blank" rel="noreferrer">
-          <FaLinkedinIn className="text-4xl" />
+          <FaLinkedinIn className="text-xl" />
         </a>
       </div>
     </footer>

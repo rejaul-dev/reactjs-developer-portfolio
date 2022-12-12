@@ -1,11 +1,11 @@
 import React from "react";
-import { FaAngleRight } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
 
 const Skills = () => {
   return (
     <div id="skills">
       <div className="mx-auto max-w-screen-sm text-center">
-        <h2 className="mb-4 text-xl font-extrabold text-white uppercase">
+        <h2 className="mb-4 text-2xl font-extrabold text-primary uppercase">
           {" "}
           My Skills
         </h2>
@@ -14,92 +14,96 @@ const Skills = () => {
           elements built with the utility classes from Tailwind
         </p>
       </div>
-      <div className="container grid md:grid-cols-2 gap-6 p-4">
-        <div className="px-4 py-10 rounded-lg mx-auto dark:bg-gray-800 ">
-          <h2  className="text-xl font-extrabold text-white uppercase">
-            Technology
-          </h2>
-          <p className="font-light text-gray-500 lg:mb-4 mb-2 sm:text-xl dark:text-gray-400">
-            I enjoy working with 
-          </p>
-          <ul className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>HTML5</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>CSS3</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>Tailwind CSS</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>Bootstrap</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>Javascript</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>React</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>MongoDB</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>Express Js</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>Node Js</span>
-            </li>
-          </ul>
+      <div  className="grid md:grid-cols-2 gap-4 ">
+        <div  className="w-3/4 mx-auto rounded-md">
+          <div className="card bg-gray-800 shadow-xl">
+            <div className="card-body">
+              <h2 className="card-title">Experience in Technology</h2>
+              <ul className="grid md:grid-cols-3 ">
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>HTML5</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>CSS</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>Javascript</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>React</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>MongoDB</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>Express JS</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>Node JS</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>Tailwind CSS</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>Bootstrap</p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div className="px-4 py-12 rounded-lg mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 dark:bg-gray-800 ">
-          <h2 className="mb-4 text-xl font-extrabold text-white uppercase">
-            Tools
-          </h2>
-          <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
-            Explore the whole collection of open-source web components and
-            elements built with the utility classes from Tailwind
-          </p>
-          <ul className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>Vs Code</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>Vercel</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>Netlify</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>Codepen</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>Github</span>
-            </li>
-
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>Chrome Dev Tool</span>
-            </li>
-            <li className="flex items-center space-x-2">
-              <FaAngleRight className="text-success" />
-              <span>Figma</span>
-            </li>
-          </ul>
+        <div className="w-3/4 mx-auto rounded-md">
+          <div className="card bg-gray-800 shadow-xl">
+            <div className="card-body">
+              <h2 className="card-title">Experience in Tools</h2>
+              <ul className="grid md:grid-cols-3  sm:grid-cols-2">
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>VS Code</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>Github</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>Git</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>Netlify</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>Firebase</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>Vercel</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>NPM</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>Tailwind CSS</p>
+                </li>
+                <li className="flex justify-between items-center mt-2">
+                  <FaCheck className="text-xl text-success mr-2" />
+                  <p>Bootstrap</p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>

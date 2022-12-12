@@ -13,7 +13,7 @@ const Projects = () => {
     },
     {
       id: 1,
-      name: "Dev Coaching Pro",
+      name: "Dragon News",
       descriptions: "Full Stack Web Application",
       img: "",
       live_site: "",
@@ -21,7 +21,7 @@ const Projects = () => {
     },
     {
       id: 1,
-      name: "Dev Coaching Pro",
+      name: "Cloud Kitchen",
       descriptions: "Full Stack Web Application",
       img: "",
       live_site: "",
@@ -30,10 +30,10 @@ const Projects = () => {
   ];
 
   return (
-    <section id="portfolio" className="mt-10">
+    <section id="portfolio" className="mt-24">
       <div>
         <div className="mx-auto max-w-screen-sm text-center mb-4">
-          <h2 className="mb-4 text-4xl font-extrabold text-white uppercase">
+          <h2 className="mb-4 text-2xl font-extrabold text-primary uppercase">
             {" "}
             My Projects
           </h2>

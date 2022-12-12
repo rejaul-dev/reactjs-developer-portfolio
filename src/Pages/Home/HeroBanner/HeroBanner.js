@@ -8,7 +8,7 @@ const HeroBanner = () => {
           <p className="text-md font-bold uppercase text-success">Hello I'm</p>
           <h1 className="text-xl font-bold uppercase text-gray-400">Rejaul Karim Rabbi</h1>
           <h1 className="text-4xl font-bold uppercase text-primary">Frontend Developer</h1>
-          <p className="py-2 text-gray-400">
+          <p className="py-2 text-gray-400 text-xl">
           Experienced in HTML, CSS Javascript, React, Express, and MongoDB
           </p>
           <a

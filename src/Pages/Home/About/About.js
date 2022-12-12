@@ -1,14 +1,13 @@
 const About = () => {
   return (
-    <section id="about">
-      <div className="mx-auto max-w-screen-sm text-center mb-8">
-        <h2 className="mb-4 text-xl font-extrabold text-white uppercase">
+    <section id="about" className="h-[500px]">
+      <div className="mx-auto max-w-screen-sm text-center pt-32">
+        <h2 className="text-2xl text-primary font-extrabold uppercase">
           {" "}
           About Me
         </h2>
-        <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
-          Explore the whole collection of open-source web components and
-          elements built with the utility classes from Tailwind
+        <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+        I have been working with React and found it to be a rewarding experience. I enjoy setting up the environment to create components using React. I am also familiar with web packs and other build tools.
         </p>
       </div>
     </section>
