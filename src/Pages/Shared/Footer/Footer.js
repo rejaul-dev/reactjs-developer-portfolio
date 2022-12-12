@@ -15,10 +15,10 @@ const Footer = () => {
         <p> Petaling Jaya, Selangor, Malaysia</p>
       </div>
       <div className="grid grid-flow-col gap-4">
-        <a href="/">
+        <a href="https://github.com/rejaul-karim10" target="_blank" rel="noreferrer">
           <FaGithub className="text-4xl" />
         </a>
-        <a href="/">
+        <a href="https://www.linkedin.com/in/rejaul-karim-rabbi/" target="_blank" rel="noreferrer">
           <FaLinkedinIn className="text-4xl" />
         </a>
       </div>

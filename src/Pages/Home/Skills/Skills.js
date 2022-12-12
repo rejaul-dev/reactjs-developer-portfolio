@@ -3,9 +3,9 @@ import { FaAngleRight } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div>
-      <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-        <h2 className="mb-4 text-4xl font-extrabold text-white uppercase">
+    <div id="skills">
+      <div className="mx-auto max-w-screen-sm text-center">
+        <h2 className="mb-4 text-xl font-extrabold text-white uppercase">
           {" "}
           My Skills
         </h2>
@@ -15,13 +15,12 @@ const Skills = () => {
         </p>
       </div>
       <div className="container grid md:grid-cols-2 gap-6 p-4">
-        <div className="px-4 py-12  rounded-lg mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 dark:bg-gray-800 ">
-          <h2  className="mb-4 text-xl font-extrabold text-white uppercase">
+        <div className="px-4 py-10 rounded-lg mx-auto dark:bg-gray-800 ">
+          <h2  className="text-xl font-extrabold text-white uppercase">
             Technology
           </h2>
-          <p className="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">
-            Explore the whole collection of open-source web components and
-            elements built with the utility classes from Tailwind
+          <p className="font-light text-gray-500 lg:mb-4 mb-2 sm:text-xl dark:text-gray-400">
+            I enjoy working with 
           </p>
           <ul className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
             <li className="flex items-center space-x-2">

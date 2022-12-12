@@ -1,12 +1,38 @@
 import React from "react";
+import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
+  const projects = [
+    {
+      id: 1,
+      name: "Doctor's Portal",
+      descriptions: "Full Stack Web Application",
+      img: "",
+      live_site: "https://doctors-portal-d899f.web.app/",
+      github_repo: "",
+    },
+    {
+      id: 1,
+      name: "Dev Coaching Pro",
+      descriptions: "Full Stack Web Application",
+      img: "",
+      live_site: "",
+      github_repo: "",
+    },
+    {
+      id: 1,
+      name: "Dev Coaching Pro",
+      descriptions: "Full Stack Web Application",
+      img: "",
+      live_site: "",
+      github_repo: "",
+    },
+  ];
 
-  
   return (
-    <section className="bg-gray-900">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
-        <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+    <section id="portfolio" className="mt-10">
+      <div>
+        <div className="mx-auto max-w-screen-sm text-center mb-4">
           <h2 className="mb-4 text-4xl font-extrabold text-white uppercase">
             {" "}
             My Projects
@@ -16,56 +42,12 @@ const Projects = () => {
             elements built with the utility classes from Tailwind
           </p>
         </div>
-        <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-3">
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">
-                Cloud Kitchen
-                <div className="badge badge-success text-white">NEW</div>
-              </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <div className="badge badge-outline">Fashion</div>
-                <div className="badge badge-outline">Products</div>
-              </div>
-            </div>
-          </div>
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">
-                Doctors Portal
-                <div className="badge badge-success text-white">NEW</div>
-              </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <div className="badge badge-outline">Fashion</div>
-                <div className="badge badge-outline">Products</div>
-              </div>
-            </div>
-          </div>
-          <div className="card w-96 bg-base-100 shadow-xl">
-            <figure>
-              <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">
-               Dragon News
-                <div className="badge badge-success text-white">NEW</div>
-              </h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <div className="badge badge-outline">Fashion</div>
-                <div className="badge badge-outline">Products</div>
-              </div>
-            </div>
-          </div>
+        <div className="grid grid-clos-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {projects.map((project) => (
+            <ProjectsCard key={project.id} project={project} />
+          ))}
         </div>
+        {/* <button className="btn btn-primary bg-gradient-to-r from-primary to-secondary">View More</button> */}
       </div>
     </section>
   );

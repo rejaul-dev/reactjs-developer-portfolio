@@ -2,17 +2,14 @@ import React from "react";
 
 const HeroBanner = () => {
   return (
-    <section className="bg-gray-900 ">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-        <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-2">
-          <span className="text-sm mb-4 font-medium  text-success">
-            Hello My Name is{" "}
-          </span>
-          <h1 className="mb-4 text-4xl font-extrabold text-white uppercase">
-            Rejaul Karim Rabbi
-          </h1>
-          <p className="font-light text-gray-500 mb-4 sm:text-xl">
-            React Js Developer
+    <div className="hero h-[600px]">
+      <div className="text-center">
+        <div className="max-w-lg">
+          <p className="text-md font-bold uppercase text-success">Hello I'm</p>
+          <h1 className="text-xl font-bold uppercase text-gray-400">Rejaul Karim Rabbi</h1>
+          <h1 className="text-4xl font-bold uppercase text-primary">Frontend Developer</h1>
+          <p className="py-2 text-gray-400">
+          Experienced in HTML, CSS Javascript, React, Express, and MongoDB
           </p>
           <a
             href="rejaul-karim.resume.pdf"
@@ -21,9 +18,32 @@ const HeroBanner = () => {
           >
             Download Resume
           </a>
+          {/* <button className="btn btn-primary">Get Started</button> */}
         </div>
       </div>
-    </section>
+    </div>
+    // <section id="home" className="h-[600px] bg-red-400">
+    //   <div className="">
+    //     <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-2">
+    //       <span className="text-sm mb-4 font-medium  text-success">
+    //         Hello, My Name is{" "}
+    //       </span>
+    //       <h3 className="mb-4 text-2xl font-extrabold text-primary uppercase">
+    //         Rejaul Karim Rabbi<br />
+    //       </h3>
+    //       <h1 className="text-5xl font-extrabold text-primary uppercase">React Js Developer</h1>
+    //       <p className="font-light text-gray-500 mb-4 sm:text-xl">
+    //       Experienced in HTML, CSS Javascript, React, Express, and MongoDB</p>
+    //       <a
+    //         href="rejaul-karim.resume.pdf"
+    //         download={"rejaul-karim.resume.pdf"}
+    //         className="btn btn-primary bg-gradient-to-r from-primary to-secondary"
+    //       >
+    //         Download Resume
+    //       </a>
+    //     </div>
+    //   </div>
+    // </section>
   );
 };
 
