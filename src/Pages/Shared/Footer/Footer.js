@@ -1,10 +1,28 @@
 import React from "react";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import profile from "../../../assets/profile/rejaul.png";
 
 const Footer = () => {
   return (
-    <div>
-      <h2>This is footer</h2>
-    </div>
+    <footer className="footer footer-center p-10 bg-accent">
+      <div className="">
+        <img
+          alt=""
+          className="w-16 h-16 border rounded-full dark:bg-gray-500 dark:border-gray-700"
+          src={profile}
+        />
+        <p className="font-bold text-xl">Rejaul Karim Rabbi</p>
+        <p> Petaling Jaya, Selangor, Malaysia</p>
+      </div>
+      <div className="grid grid-flow-col gap-4">
+        <a href="/">
+          <FaGithub className="text-4xl" />
+        </a>
+        <a href="/">
+          <FaLinkedinIn className="text-4xl" />
+        </a>
+      </div>
+    </footer>
   );
 };
 
