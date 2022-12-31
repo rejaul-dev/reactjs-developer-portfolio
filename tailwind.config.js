@@ -5,10 +5,10 @@ module.exports = {
     themes: [
       {
         FighterCoderTheme: {
-          primary: "#00FFFF",
-          secondary:"#00AFDB",
-          success: "#22C55E",
-          accent: "#111827",
+          primary: "#0A192F",
+          secondary:"#CCD6F6",
+          success: "#64FFDA",
+          accent: "#0E0E52",
         },
       },
     ],
