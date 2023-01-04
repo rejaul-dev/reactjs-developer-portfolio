@@ -5,7 +5,6 @@ const Footer = () => {
     <div className="w-full py-4">
       <div className="max-w-[1080px] mx-auto p-4">
         <ul className="flex">
-          <li className=" mr-2 text-[12px] text-success">About</li>
           <li className=" mr-2 text-[12px] text-success">Medium</li>
           <li className=" mr-2 text-[12px] text-success">LinkedIn</li>
           <li className="text-[12px] text-success">GitHub</li>
